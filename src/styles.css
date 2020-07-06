@@ -1,0 +1,41 @@
+/*@font-face {
+    font-family: 'Poppins', sans-serif;
+    src:url(../fonts/Poppins/Poppins-Thin.ttf);
+    font-weight:normal;
+}
+*/
+
+
+#avatar {
+    max-width: 300px ;
+    max-height: 300px ;
+    border-radius: 50%; 
+}
+
+h1 {
+    text-align: center;
+    margin-top: 100px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+nav {
+    font-family: 'Poppins';
+    text-align: center;
+    margin-top: 20px; 
+}
+
+a {
+    margin-left: 20px;
+}
+
+footer {
+    text-align: center;
+}
+
+.hidden{
+    display: none;
+}
