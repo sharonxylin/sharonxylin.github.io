@@ -1,0 +1,10 @@
+#avatar {
+    max-width: 300px ;
+    max-height: 300px ;
+    border-radius: 50%; 
+}
+
+main > div  {
+    display: flex;
+    margin: 100px;
+}
