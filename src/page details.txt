@@ -8,7 +8,7 @@ designed a navigation app prototype with Figma that provides users information r
 safety scores and verified external news resources, while also allowing users to stay informed in their communities through alerts and 
 reviews. 
 
-Team Members: Nicholas Chun, Catherine Oei, Ivan Belikov, Sharon Lin
+Team Members: Nicholas Chun, Catherine Oei, Ivan Belikov, and Sharon Lin
 ---------
 
 
@@ -23,7 +23,7 @@ Project Overview: An interactive application as part of the final project for th
 at the UW iSchool. This application coded in R features data from Our World in Data to increase attention and emphasis on bettering issues 
 regarding suicide and mental health disorders.
 
-Team Members: Eric Fong, Ethan Dirks, Jiatian Xie, Sharon Lin
+Team Members: Eric Fong, Ethan Dirks, Jiatian Xie, and Sharon Lin
 
 Sources: 
 - Prevalence by mental and substance use disorder, World, 2017: https://ourworldindata.org/grapher/prevalence-by-mental-and-substance-use-disorder?fbclid=IwAR1RVHquwnIf0o3T00yCkR90yu_Kp4thxO2J3KnifPQ2Km1RpFfY_bmY7h0

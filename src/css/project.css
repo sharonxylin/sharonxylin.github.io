@@ -1,0 +1,21 @@
+.cover {
+    text-align: center;
+}
+.cover img {
+    max-width:500px;
+    max-height:500px;
+}
+
+.projectpics {
+    text-align: center;
+}
+
+.projectpics img {
+    max-width: 600px;
+    max-height: 600px;
+    display: block;
+}
+
+#safepathpics img, #edavfxpics img {
+    display: inline-block;
+}

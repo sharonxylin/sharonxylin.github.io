@@ -1,6 +1,5 @@
 'use strict';
 
-//projects to display on the dashbaord
 let projects=[];
 projects.push({name: "collewear",tool:"HTML/CSS/JavaScript", relevant:"INFO340 Client-Side Development", cover: "./src/assets/project_covers/collewear.png", link:"./src/pages/collewear.html"});
 projects.push({name:"SafePath", tool:"Figma", relevant:"WINFO Hackathon", cover:"./src/assets/project_covers/safepath.png", link:"./src/pages/safepath.html"});
@@ -18,7 +17,9 @@ function createProjects(){
 }
 
 function createProjectCard(item) {
-    let card = document.createElement('article');
+    let a = document.createElement('a');
+    a.setAttribute('href',item.link);
+    let card = document.createElement('div');
     card.classList.add('flex-item');
     card.classList.add('card');
     //cover image
@@ -36,7 +37,8 @@ function createProjectCard(item) {
     card.appendChild(name);
     card.appendChild(tool);
     card.appendChild(relevant);
-    return card;
+    a.appendChild(card);
+    return a;
 }
 
 createProjects();
