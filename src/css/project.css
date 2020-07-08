@@ -1,9 +1,12 @@
 .cover {
     text-align: center;
 }
+
 .cover img {
-    max-width:500px;
-    max-height:500px;
+    max-width: 500px;
+    max-height: 300px;
+    margin-left: 50px; 
+    margin-right: 50px;
 }
 
 .projectpics {
@@ -18,4 +21,8 @@
 
 #safepathpics img, #edavfxpics img {
     display: inline-block;
+}
+
+.link {
+    font-style: italic;
 }
