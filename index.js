@@ -12,14 +12,15 @@ projects.push({name:"EDA Visual Effects Corporation",tool:"Adobe Illustrator/Pho
 let hamburger = document.querySelector('.hamburger-menu');
 let navs = document.querySelector('.navs');
 
-hamburger.addEventListener('click', ()=> {
-    hamburger.classList.toggle('active');
-    if (navs.style.display === "block") {
-        navs.style.display = "none";
-    } else {
-        navs.style.display = "block";
-    }
-});
+//when the website first load 
+if(window.outerWidth >= 768){
+    hamburger.style.display = "none";
+    navs.style.display = "block";
+} else {
+    hamburger.style.display = "block";
+    navs.style.display = "none"; 
+}
+
 
 //remove hamburger menu when screen resizes
 window.addEventListener('resize', () => {
@@ -33,9 +34,16 @@ window.addEventListener('resize', () => {
     }
 });
 
-function toggleDisplay() {
-    let hamburger  = document.querySelector('.hamburger-menu');
-}
+//hamburger menu interactivity
+hamburger.addEventListener('click', ()=> {
+    hamburger.classList.toggle('active');
+    if (navs.style.display === "block") {
+        navs.style.display = "none";
+    } else {
+        navs.style.display = "block";
+    }
+});
+
 //dashboard - project cards
 function createProjects(){
     let dashboard = document.querySelector('#dashboard'); 
