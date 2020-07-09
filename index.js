@@ -8,6 +8,34 @@ projects.push({name:"HuskyMap Server", tool:"Java", relevant:"CSE 373 Data Struc
 projects.push({name:"EDA Visual Effects Corporation",tool:"Adobe Illustrator/Photoshop",relevant:"Internship ", cover:"./src/assets/project_covers/edavfx.png", link:"./src/pages/edavfx.html"});
 
 
+// navigation bar interaction 
+let hamburger = document.querySelector('.hamburger-menu');
+let navs = document.querySelector('.navs');
+
+hamburger.addEventListener('click', ()=> {
+    hamburger.classList.toggle('active');
+    if (navs.style.display === "block") {
+        navs.style.display = "none";
+    } else {
+        navs.style.display = "block";
+    }
+});
+
+//remove hamburger menu when screen resizes
+window.addEventListener('resize', () => {
+    if(window.outerWidth >= 768){
+        hamburger.style.display = "none";
+        navs.style.display = "block";
+    } else {
+        hamburger.style.display = "block";
+        navs.style.display = "none"; 
+    }
+});
+
+function toggleDisplay() {
+    let hamburger  = document.querySelector('.hamburger-menu');
+}
+//dashboard - project cards
 function createProjects(){
     let dashboard = document.querySelector('#dashboard'); 
     projects.forEach(project => {
@@ -16,12 +44,12 @@ function createProjects(){
     });
 }
 
+//dashboard - project cards
 function createProjectCard(item) {
+    let div = document.createElement('div');
     let a = document.createElement('a');
     a.setAttribute('href',item.link);
     let card = document.createElement('div');
-    card.classList.add('flex-item');
-    card.classList.add('card');
     //cover image
     // link to the project page 
     let name = document.createElement('h3');
@@ -38,7 +66,6 @@ function createProjectCard(item) {
     card.appendChild(tool);
     card.appendChild(relevant);
     a.appendChild(card);
-    return a;
+    div.appendChild(a);
+    return div;
 }
-
-createProjects();

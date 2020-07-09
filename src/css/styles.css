@@ -11,7 +11,8 @@ body {
 header {
     margin-left: auto;
     margin-right: auto;
-    text-align: center;}
+    text-align: center;
+}
 
 h1 {
     margin-top: 100px;
@@ -30,7 +31,6 @@ nav {
 }
 
 a {
-    margin: 20px;
     color: #555454;
     text-decoration: none;
 }
@@ -39,12 +39,15 @@ a:hover {
     color:#dd6f88;
 }
 
-.navs a {
-    letter-spacing: 4px;
-}
-
 .navs {
     display: none;
+}
+
+.navs a {
+    display: block;
+    font-size: 16px;
+    letter-spacing: 4px;
+    margin: 20px 0px 0px;
 }
 
 .hidden{
@@ -53,6 +56,15 @@ a:hover {
 
 .flex-container {
     display: flex;
+}
+
+.hamburger-menu {
+   margin-top: 50px;
+}
+
+.active i {
+    color:#dd6f88;
+
 }
 
 /* display: tablet */
@@ -66,13 +78,13 @@ a:hover {
         margin: 100px 100px 0px;
     }
 
-    .hamburger-menu {
-        display: none;
-    }
-
-    .navs{
-        display: block;
+    .navs {
         margin-top: 50px;
+    }
+     
+    .navs a {
+        display: inline;
+        margin: 0px 20px 0px; 
     }
 
     main p, .link a {
@@ -92,6 +104,24 @@ a:hover {
         margin: 100px 200px 0px;
     }
 
+    .flex-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: stretch;
+    }
+
+    #dashboard > div {
+        text-align: center;
+        width: 500px;
+        flex-basis: 0;
+        margin: 10px 0px;
+        border: 2px solid gray;
+    }
+
+    .navs a {
+        font-size: 17px;
+    }
 }
 
 /*nav bar larger*/

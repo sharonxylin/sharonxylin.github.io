@@ -4,6 +4,10 @@
     border-radius: 50%; 
 }
 
+#about {
+    align-items: center;
+}
+
 #about div {
     display: block;
 }
@@ -36,6 +40,6 @@
 @media(min-width: 1024px) {
 
     #aboutMeSection {
-        margin: 70px 180px; 
+        margin: 70px 230px; 
     }
 }
