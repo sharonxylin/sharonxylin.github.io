@@ -4,7 +4,38 @@
     border-radius: 50%; 
 }
 
-main > div  {
-    display: flex;
-    margin: 100px;
+#about div {
+    display: block;
+}
+
+#avatarSection {
+    text-align: center;
+    margin: 90px 0px 0px;
+}
+
+#aboutMeSection {
+    margin: 70px 80px; 
+    line-height: 40px;
+}
+
+
+/* display: tablet */
+@media(min-width: 768px) {
+    #avatar {
+        max-width: 350px ;
+        max-height: 350px ;
+    }
+    #aboutMeSection {
+        margin: 70px 100px; 
+        line-height: 35px;
+    }
+    
+}
+
+/* display: laptop */ 
+@media(min-width: 1024px) {
+
+    #aboutMeSection {
+        margin: 70px 180px; 
+    }
 }
