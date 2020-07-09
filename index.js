@@ -23,6 +23,7 @@ hamburger.addEventListener('click', ()=> {
 
 //remove hamburger menu when screen resizes
 window.addEventListener('resize', () => {
+    hamburger.classList.remove('active');
     if(window.outerWidth >= 768){
         hamburger.style.display = "none";
         navs.style.display = "block";
