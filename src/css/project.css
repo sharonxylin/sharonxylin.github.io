@@ -82,12 +82,8 @@
         margin: auto;
         text-align: center;
     }
-    .smhdpic img {
-        object-fit: fill;
-
-    }
     
     .projectpics img {
-        min-width:800px;
+        min-width: 1000px;
     }
 }
