@@ -85,7 +85,9 @@ footer {
     border: 1px solid rgba(146, 146, 146, 0.2);
 }
 
-/*card hover effect*/
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(97, 97, 97, 0.2);
+}
 
 .card img {
     width: 100%;
