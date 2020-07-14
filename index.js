@@ -98,35 +98,5 @@ function createProjectCard(item) {
 }
 
 
-//card onclick 
 
 
-
-
-
-/*
-function createProjectCard(item) {
-    let div = document.createElement('div');
-    let a = document.createElement('a');
-    a.setAttribute('href',item.link);
-    let card = document.createElement('div');
-    let name = document.createElement('h3');
-    name.innerHTML = item.name.toUpperCase();
-    let tool = document.createElement('p');
-    tool.innerHTML = item.tool;
-    let relevant = document.createElement('p');
-    relevant.innerHTML = item.relevant;
-    let image = document.createElement('img');
-    image.setAttribute('src',item.cover);
-    image.setAttribute('style', 'width:100%');
-
-
-    card.appendChild(image); 
-    card.appendChild(name);
-    card.appendChild(tool);
-    card.appendChild(relevant);
-    a.appendChild(card);
-    div.appendChild(a);
-    return div;
-}
-*/
