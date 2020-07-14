@@ -5,9 +5,8 @@ body {
     font-family: 'Poppins', sans-serif; 
     background-color: #fff7f8;
     color: #494848;
-    ;
-
 }
+
 header {
     margin-left: auto;
     margin-right: auto;
@@ -45,6 +44,12 @@ a:hover {
     font-size: 16px;
     letter-spacing: 4px;
     margin: 20px 0px 0px;
+}
+
+footer {
+    text-align: center;
+    margin: 80px 80px 40px;
+    color: rgb(153, 153, 153);
 }
 
 .hidden{
@@ -129,6 +134,10 @@ a:hover {
 
     main p, .link a {
         letter-spacing: 2px;
+    }
+
+    footer {
+        margin: 100px 0px 50px;
     }
 
     /* dashboard */
