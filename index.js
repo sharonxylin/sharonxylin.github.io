@@ -53,14 +53,63 @@ function createProjects(){
     });
 }
 
-//dashboard - project cards
+//dashboard - project card
+/*
+            <div class="card" onclick="location.href='./src/pages/collewear.html';">
+                <img src="./src/assets/project_covers/collewear.png">
+                <div class="card-description">
+                    <p>COLLEWEAR</p>
+                    <p>HTML/CSS/JS</p>
+                    <p>INFO 340 Client Side Development</p>
+                </div>
+            </div> 
+*/
+
+function createProjectCard(item) {
+    let card = document.createElement('div');
+    card.classList.add('card');
+
+    let image = document.createElement('img');
+    image.setAttribute('src',item.cover);
+    
+    let description = document.createElement('div');
+    description.classList.add('card-description');
+
+    let name = document.createElement('p');
+    name.innerHTML = item.name;
+    let tool = document.createElement('p');
+    tool.innerHTML = item.tool;
+    let relevant = document.createElement('p');
+    relevant.innerHTML = item.relevant;
+
+    card.addEventListener('click', ()=>{
+        window.location = item.link;
+    });
+
+
+
+    card.appendChild(image);
+    card.appendChild(description);
+    description.appendChild(name);
+    description.appendChild(tool);
+    description.appendChild(relevant);
+
+    return card;
+}
+
+
+//card onclick 
+
+
+
+
+
+/*
 function createProjectCard(item) {
     let div = document.createElement('div');
     let a = document.createElement('a');
     a.setAttribute('href',item.link);
     let card = document.createElement('div');
-    //cover image
-    // link to the project page 
     let name = document.createElement('h3');
     name.innerHTML = item.name.toUpperCase();
     let tool = document.createElement('p');
@@ -69,8 +118,10 @@ function createProjectCard(item) {
     relevant.innerHTML = item.relevant;
     let image = document.createElement('img');
     image.setAttribute('src',item.cover);
+    image.setAttribute('style', 'width:100%');
 
-    //card.appendChild(image); 
+
+    card.appendChild(image); 
     card.appendChild(name);
     card.appendChild(tool);
     card.appendChild(relevant);
@@ -78,3 +129,4 @@ function createProjectCard(item) {
     div.appendChild(a);
     return div;
 }
+*/

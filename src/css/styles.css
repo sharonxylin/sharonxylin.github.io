@@ -26,17 +26,18 @@ h2 {
     letter-spacing: 7px;
 }
 
-nav {
-    margin-top: 20px;
-}
-
 a {
     color: #555454;
     text-decoration: none;
 }
 
+nav {
+    margin-top: 20px;
+}
+
 a:hover {
     color:#dd6f88;
+    text-decoration: none;
 }
 
 .navs a {
@@ -50,10 +51,6 @@ a:hover {
     display: none;
 }
 
-.flex-container {
-    display: flex;
-}
-
 .hamburger-menu {
    margin-top: 50px;
    margin-bottom: 30px;
@@ -62,6 +59,52 @@ a:hover {
 .active i {
     color:#dd6f88;
 
+}
+
+/* dashboard */
+#dashboard {
+    margin: 70px 80px 0px;
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.card {
+    flex: 0 0 300px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 15px;
+    border: 1px solid rgba(48, 48, 48, 0.158);
+}
+
+/*card hover effect*/
+
+.card img {
+    width: 100%;
+    height: 250px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.card-description {
+    padding: 20px;
+    line-height: 10px;
+}
+
+.card-description :nth-child(1) {
+    letter-spacing: 5px;
+    line-height: 20px;
+    
+}
+
+.card-description :nth-child(2), .card-description :nth-child(3) {
+   font-size: 13px;
+   letter-spacing: 2px;
+   color: rgb(153, 153, 153);
+   line-height: 20px; 
 }
 
 /* display: tablet */
@@ -87,6 +130,18 @@ a:hover {
     main p, .link a {
         letter-spacing: 2px;
     }
+
+    /* dashboard */
+    .card {
+        flex: 0 0 350px;
+        margin: 25px;
+        border-radius: 13px;
+    }
+    
+    .card img {
+        border-top-left-radius: 13px;
+        border-top-right-radius: 13px;
+    }
     
 }
 
@@ -101,22 +156,12 @@ a:hover {
         margin: 100px 200px 0px;
     }
 
-    .flex-container {
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: stretch;
-    }
-
-    #dashboard > div {
-        text-align: center;
-        width: 500px;
-        flex-basis: 0;
-        margin: 10px 0px;
-        border: 2px solid gray;
-    }
-
     .navs a {
         font-size: 17px;
+    }
+
+    /* dashboard */
+    #dashboard {
+        margin: 70px 50px 0px;
     }
 }
