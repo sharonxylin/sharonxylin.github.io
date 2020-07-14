@@ -54,15 +54,15 @@ function createProjects(){
 }
 
 //dashboard - project card
-/*
-            <div class="card" onclick="location.href='./src/pages/collewear.html';">
-                <img src="./src/assets/project_covers/collewear.png">
-                <div class="card-description">
-                    <p>COLLEWEAR</p>
-                    <p>HTML/CSS/JS</p>
-                    <p>INFO 340 Client Side Development</p>
-                </div>
-            </div> 
+/* LOOKS LIKE THIS:
+    <div class="card" onclick="location.href='./src/pages/collewear.html';">
+        <img src="./src/assets/project_covers/collewear.png">
+        <div class="card-description">
+            <p>COLLEWEAR</p>
+            <p>HTML/CSS/JS</p>
+            <p>INFO 340 Client Side Development</p>
+        </div>
+    </div> 
 */
 
 function createProjectCard(item) {
