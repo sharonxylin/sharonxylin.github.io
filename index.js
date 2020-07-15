@@ -44,6 +44,20 @@ hamburger.addEventListener('click', ()=> {
     }
 });
 
+//footer 
+function footer() {
+    let footerMessage = document.createElement('p');
+    footerMessage.innerHTML = 'Made with lots of ☕️ and 💤 | &copy; Sharon Lin 2020';
+    ;
+    document.querySelector('footer').appendChild(footerMessage);
+}
+
+footer(); 
+
+
+
+
+
 //dashboard - project cards
 function createProjects(){
     let dashboard = document.querySelector('#dashboard'); 
@@ -96,7 +110,4 @@ function createProjectCard(item) {
 
     return card;
 }
-
-
-
 
