@@ -47,7 +47,7 @@ hamburger.addEventListener('click', ()=> {
 //footer 
 function footer() {
     let footerMessage = document.createElement('p');
-    footerMessage.innerHTML = 'Made with lots of ☕️ and 💤 | &copy; Sharon Lin 2020';
+    footerMessage.innerHTML = 'Made with 💕💖 by Sharon Lin | &copy; Sharon Lin 2020';
     ;
     document.querySelector('footer').appendChild(footerMessage);
 }
