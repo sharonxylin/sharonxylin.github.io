@@ -37,7 +37,7 @@ Sources:
 HUSKYMAP SERVER
 ---------
 Project Overview: An application as part of the main assignment of the data structures and algorithms course, CSE 373, at UW. 
-This application rasterizes a coordinate grid and visually displays the shortest path between any two points and implements 
+This application rasterizes coordinate grids and visually displays the shortest path between any two points and implements 
 multiple data structures and algorithms, such as priority queues, heaps, k-d tree, and A-Star search algorithm, using Java. 
 ---------
 
