@@ -76,7 +76,7 @@ Team Members: Eric Kim and Sharon Lin
 ABOUT 
 ---------
 Hi, I am Sharon! I am a rising junior studying Informatics and Economics at the University of Washington Seattle. 
-I am an aspiring software engineer and designer passionate about building ethical technology with a high social impact. 
+I am an aspiring software engineer and UI/UX designer passionate about building ethical technology with a high social impact. 
 Specifically, I hope to integrate my diverse experiences and skills to promote inclusivity and accessibility in tech and 
 support marginalized groups in tech.
 
