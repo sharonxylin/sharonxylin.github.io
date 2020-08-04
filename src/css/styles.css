@@ -86,6 +86,7 @@ footer {
 }
 
 .card:hover {
+    cursor: pointer;
     box-shadow: 0 8px 16px 0 rgba(97, 97, 97, 0.2);
 }
 
