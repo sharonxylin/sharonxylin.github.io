@@ -26,6 +26,10 @@
     max-width: 400px;
 }
 
+#hopefuldemovid {
+    max-width: 400px;
+}
+
 .projectverticalpics img {
     display: inline-block;
 }
@@ -42,6 +46,7 @@
     text-align: center; 
 }
 
+
 /* display: tablet */
 @media(min-width: 768px) {
     .cover img {
@@ -56,6 +61,11 @@
         margin: 70px 100px;
         line-height: 35px;
     }
+
+    #hopefuldemovid {
+        max-width: 750px;
+    }
+
     .projecthorizontalpics img {
         min-width: 750px;
     }
@@ -92,6 +102,9 @@
     
     .projecthorizontalpics img {
         min-width: 1000px;
+    }
+    #hopefuldemovid {
+        max-width: 1000px;
     }
 
     #edavfx img, #safepath img{
