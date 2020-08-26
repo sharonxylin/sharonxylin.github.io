@@ -8,8 +8,7 @@ projects.push({name:"Hopeful", tool:"Figma/Angular.js", relevant: "Hack'20 Virtu
 projects.push({name:"SafePath", tool:"Figma", relevant:"WINFO Hackathon", cover:"./src/assets/project_covers/safepath.png", link:"./src/pages/safepath.html"});
 projects.push({name:"Suicide and Mental Health Disorders", tool:"R/Shiny App", relevant:"INFO 201 Technical Foundations of Informatics", cover:"./src/assets/project_covers/smhd.png", link:"./src/pages/smhd.html"});
 projects.push({name:"HuskyMap Server", tool:"Java", relevant:"CSE 373 Data Structures & Algorithms", cover:"./src/assets/project_covers/huskymap.png", link:"./src/pages/huskymap.html"});
-
-//projects.push({name:"EDA Visual Effects Corporation",tool:"Adobe Illustrator/Photoshop",relevant:"Internship ", cover:"./src/assets/project_covers/edavfx.png", link:"./src/pages/edavfx.html"});
+projects.push({name:"EDA Visual Effects Corporation",tool:"Adobe Illustrator/Photoshop",relevant:"Internship ", cover:"./src/assets/project_covers/edavfx.png", link:"./src/pages/edavfx.html"});
 
 // navigation bar interaction 
 let hamburger = document.querySelector('.hamburger-menu');
