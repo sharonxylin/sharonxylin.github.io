@@ -15,6 +15,19 @@ Team Members: Nicholas Chun, Catherine Oei, Ivan Belikov, and Sharon Lin
 
 
 
+QUICKSAVE
+---------
+Link: X
+
+Project Overview: A Chrome Extension that allows users to manage, annotate, and save YouTube Videos paused at specific times.
+The chrome extension, coded in HTML, CSS, and Javascript, makes uses of Firebase for storage purposes. 
+---------
+
+
+
+
+
+
 HOPEFUL
 ---------
 Project Overview:  A mobile app prototype as part of the final deliverable for  UW DubHacks's Hack 20 Virtual Hackathon (Quarantine Track). 
@@ -81,6 +94,18 @@ This application coded in HTML, CSS, and Javascript displays a visual summary of
 and includes filtering features to ease the user's shopping experience. 
 
 Team Members: Eric Kim and Sharon Lin 
+---------
+
+
+
+
+
+WHERE TO GO 
+---------
+Link: https://sharonxylin.github.io/where-to-go/
+Project Overview: An interactive application that employs Maps Javascript API and Places API 
+from Google Maps Platform to render and compare multiple places, providing 
+etailed information, ratings, and user reviews
 ---------
 
 
