@@ -34,7 +34,7 @@
     display: inline-block;
 }
 
-#edavfx img, #safepath img {
+#edavfx img, #safepath img,  #quicksave img {
     min-width: 200px;
     max-width: 400px;
     padding-top: 10px;
@@ -74,7 +74,7 @@
         display: inline-block;
     }
 
-    #edavfx img, #safepath img{
+    #edavfx img, #safepath img, #quicksave img{
         max-width: 700px;
         max-height: 500px;
         padding-left: 10px;
@@ -116,5 +116,6 @@
         padding-right: 5px;
     }
 
+  
 
 }
